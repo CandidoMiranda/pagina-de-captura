@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  background-color: #000;
+  background-image: url(../images/bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+header .logo img {
+  margin: 30px 0 0 40px;
+  width: 90px;
+}
+
+header .main-header {
+  display: flex;
+}
+
+header .main-header .leftside {
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+header .main-header .leftside h1 {
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 50px;
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+
+header .main-header .leftside p {
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 20px;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+header .main-header .leftside form {
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+}
+
+header .main-header .leftside form input {
+  outline: none;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  background-color: transparent;
+  font-size: 16px;
+  padding: 5px 16px;
+  margin-right: 10px;
+  color: white;
+  width: 300px;
+}
+
+header .main-header .leftside form button {
+  color: white;
+  background: #0071b7;
+  border: none;
+  font-size: 14px;
+  line-height: 22px;
+  padding: 5px 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+header .main-header .leftside .techs {
+  margin-bottom: 80px;
+}
+
+header .main-header .leftside .tech {
+  margin-right: 20px;
+}
+
+header .main-header .rightside {
+  flex: 1;
+  background-image: url(../images/hero.png);
+  background-repeat: no-repeat;
+}
+
+.section1 {
+  background-color: #eaeef1;
+  padding-top: 50px;
+}
+
+.section1 .sec1-header ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding-bottom: 40px;
+  border-bottom: 2px solid #e5e5e5;
+}
+
+.section1 .sec1-header ul li {
+  list-style: none;
+}
+
+.section1 .questions {
+  margin: 80px 250px;
+}
+
+.section1 .questions h2 {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 35px;
+  padding-bottom: 30px;
+}
+
+.section1 .questions p {
+  padding-bottom: 90px;
+  font-size: 16px;
+  line-height: 22px;
+
+  color: rgba(0, 0, 0, 0.5);
+}
