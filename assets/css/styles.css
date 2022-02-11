@@ -76,6 +76,10 @@ header .main-header .leftside form button {
   cursor: pointer;
 }
 
+header .main-header .leftside form button:hover {
+  opacity: 0.7;
+}
+
 header .main-header .leftside .techs {
   margin-bottom: 80px;
 }
@@ -94,8 +98,8 @@ header .main-header .rightside {
   background-color: #eaeef1;
   padding-top: 50px;
 }
-
-.section1 .sec1-header ul {
+/* Bolinhas  */
+.section1 .sec1-header {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -104,12 +108,20 @@ header .main-header .rightside {
   border-bottom: 2px solid #e5e5e5;
 }
 
-.section1 .sec1-header ul li {
-  list-style: none;
+.section1 .sec1-header .topbar {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  color: #c2c8cb;
+}
+
+.section1 .sec1-header .dot {
+  border: 3px solid #c2c8cb;
+  border-radius: 50px;
 }
 
 .section1 .questions {
-  margin: 80px 250px;
+  padding: 70px 15%;
 }
 
 .section1 .questions h2 {
@@ -125,4 +137,88 @@ header .main-header .rightside {
   line-height: 22px;
 
   color: rgba(0, 0, 0, 0.5);
+}
+
+.section2 {
+  background-color: #1d2437;
+  display: flex;
+  padding: 120px 15%;
+  align-items: center;
+}
+
+.section2 .sec2-text {
+  flex: 1;
+  margin-right: 30px;
+}
+
+.section2 .sec2-text h2 {
+  font-size: 40px;
+  line-height: 47px;
+  color: white;
+  margin-bottom: 25px;
+}
+
+.section2 .sec2-text p {
+  font-size: 18px;
+  line-height: 25px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.section2 .sec2-form {
+  flex: 1;
+  margin-left: 30px;
+}
+
+.section2 .sec2-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.section2 .sec2-form form input {
+  outline: none;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  background-color: transparent;
+  font-size: 16px;
+  padding: 10px 16px;
+  color: white;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.section2 .sec2-form form button {
+  color: white;
+  background: #0071b7;
+  border: none;
+  font-size: 14px;
+  line-height: 22px;
+  padding: 10px 140px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+}
+
+.section2 .sec2-form form button:hover {
+  opacity: 0.7;
+}
+
+footer {
+  border-top: 2px solid rgba(255, 255, 255, 0.1);
+  background-color: #1d2437;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+}
+
+footer .logo img {
+  margin: 0 0 0 40px;
+  width: 90px;
+}
+
+footer .rights p {
+  font-size: 16px;
+  line-height: 23px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+  margin-right: 10px;
 }
